@@ -1,0 +1,48 @@
+[project]
+name = "drug-discovery"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "anthropic>=0.79.0",
+    "instructor>=1.14.5",
+    "openai>=2.20.0",
+    "pymongo>=4.16.0",
+    "rapidfuzz>=3.14.3",
+    "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+core = [
+    "hishel[async]>=1.1.9",
+    "httpx>=0.28.1",
+    "pydantic>=2.12.5",
+    "pydantic-settings>=2.12.0",
+    "tenacity>=9.1.4",
+]
+dev = [
+    "pytest>=9.0.2",
+    "pytest-asyncio>=1.3.0",
+    "ruff>=0.15.1",
+]
+llm = [
+    "pydantic-ai>=1.58.0",
+    "tavily-python>=0.7.0",
+]
+vector = [
+    "qdrant-client>=1.16.2",
+    "sentence-transformers>=5.2.2",
+]
+viz = [
+    "matplotlib>=3.10",
+    "scipy>=1.16",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "strict"
+addopts = "-m 'not live and not integration'"
+markers = [
+    "integration: tests that hit live external APIs (may be slow or flaky)",
+    "live: tests that make real LLM API calls (cost tokens, require API keys in .env)",
+]

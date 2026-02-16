@@ -1,0 +1,391 @@
+drug_name,arm_id,difficulty,n_ground_truth,n_predicted,precision_at_1,precision_at_10,recall_at_1,recall_at_10,roc_auc,true_positives_at_10
+Acenocoumarol,pipeline-gpt41,medium,10,2,1.0,0.5,0.1,0.1,1.0,Atrial Fibrillation
+Acenocoumarol,pipeline-gpt52,medium,10,3,1.0,0.3333,0.1,0.1,1.0,atrial fibrillation
+Acenocoumarol,pipeline-opus46,medium,10,4,1.0,0.5,0.1,0.4,1.0,Atrial fibrillation; Venous thromboembolism
+Acenocoumarol,pipeline-sonnet45,medium,10,5,1.0,0.4,0.1,0.4,0.875,atrial fibrillation; venous thromboembolism
+Acenocoumarol,websearch-gpt41,medium,10,1,0.0,0.0,0.0,0.0,,
+Acenocoumarol,websearch-gpt52,medium,10,5,1.0,0.2,0.3,0.3,0.9167,"Venous thromboembolism (VTE) (deep vein thrombosis, pulmonary embolism)"
+Acenocoumarol,websearch-opus46,medium,10,10,1.0,0.2,0.3,0.4,1.0,Venous Thromboembolism (VTE) -- including Deep Vein Thrombosis (DVT) and Pulmonary Embolism (PE); Atrial Fibrillation (AF)
+Acenocoumarol,websearch-sonnet45,medium,10,6,1.0,0.3333,0.1,0.4,1.0,Atrial Fibrillation (with Stroke Prevention); Venous Thromboembolism (VTE) - General
+Albuterol,pipeline-gpt41,easy,22,5,1.0,0.4,0.0455,0.0909,0.4688,chronic obstructive pulmonary disease; asthma
+Albuterol,pipeline-gpt52,easy,22,4,1.0,0.5,0.0455,0.0909,0.6591,asthma; chronic obstructive pulmonary disease
+Albuterol,pipeline-opus46,easy,22,13,1.0,0.2,0.0455,0.0909,0.5114,Asthma; Chronic obstructive pulmonary disease
+Albuterol,pipeline-sonnet45,easy,22,7,1.0,0.2857,0.0455,0.0909,1.0,Asthma; Chronic Obstructive Pulmonary Disease
+Albuterol,websearch-gpt41,easy,22,4,1.0,0.75,0.0455,0.1364,0.6667,Asthma; Chronic Obstructive Pulmonary Disease (COPD); Acute Hyperkalemia
+Albuterol (Salbutamol),websearch-gpt52,easy,22,6,1.0,0.5,0.0455,0.1364,1.0,Asthma (including acute bronchospasm; exercise-induced bronchoconstriction); Chronic Obstructive Pulmonary Disease (COPD) — symptomatic relief (bronchospasm); Hyperkalemia (via intracellular potassium shift; common off-label/emergency adjunct)
+Albuterol (Salbutamol),websearch-opus46,easy,22,11,1.0,0.3,0.0455,0.1364,0.9375,Asthma; Chronic Obstructive Pulmonary Disease (COPD); Hyperkalemia
+Albuterol,websearch-sonnet45,easy,22,6,1.0,0.5,0.0455,0.1364,0.7778,Asthma; Chronic Obstructive Pulmonary Disease (COPD); Hyperkalemia
+Azacitidine,pipeline-gpt41,easy,16,7,1.0,0.5714,0.0625,0.3125,0.9688,Myelodysplastic syndrome; Acute myeloid leukemia; Chronic myelomonocytic leukemia; Leukemia
+Azacitidine,pipeline-gpt52,easy,16,5,1.0,0.8,0.0625,0.3125,0.9,myelodysplastic syndrome; acute myeloid leukemia; chronic myelomonocytic leukemia; leukemia
+Azacitidine,pipeline-opus46,easy,16,9,1.0,0.3333,0.0625,0.25,1.0,Myelodysplastic syndrome; Acute myeloid leukemia; Chronic myelomonocytic leukemia
+Azacitidine,pipeline-sonnet45,easy,16,8,1.0,0.5,0.0625,0.3125,0.875,myelodysplastic syndrome; acute myeloid leukemia; chronic myelomonocytic leukemia; leukemia
+azacitidine,websearch-gpt41,easy,16,3,1.0,1.0,0.0625,0.25,1.0,Myelodysplastic Syndromes; Acute Myeloid Leukemia; Chronic Myelomonocytic Leukemia
+Azacitidine,websearch-gpt52,easy,16,4,1.0,0.75,0.0625,0.25,1.0,Myelodysplastic syndromes (MDS); Acute myeloid leukemia (AML); Chronic myelomonocytic leukemia (CMML)
+Azacitidine,websearch-opus46,easy,16,9,1.0,0.3333,0.0625,0.25,1.0,Myelodysplastic Syndromes (MDS); Acute Myeloid Leukemia (AML); Chronic Myelomonocytic Leukemia (CMML)
+Azacitidine,websearch-sonnet45,easy,16,6,1.0,0.5,0.0625,0.25,1.0,Myelodysplastic Syndrome; Acute Myeloid Leukemia; Chronic Myelomonocytic Leukemia
+Benserazide,pipeline-gpt41,medium,10,1,1.0,1.0,0.1,0.1,,Parkinson disease
+Benserazide,pipeline-gpt52,medium,10,1,1.0,1.0,0.1,0.1,,Parkinson disease
+Benserazide,pipeline-opus46,medium,10,2,1.0,0.5,0.1,0.1,1.0,Parkinson disease
+Benserazide,pipeline-sonnet45,medium,10,2,1.0,0.5,0.1,0.1,1.0,Parkinson disease
+Benserazide,websearch-gpt41,medium,10,3,1.0,0.3333,0.1,0.1,1.0,Parkinson’s Disease
+Benserazide,websearch-gpt52,medium,10,5,1.0,0.2,0.1,0.1,1.0,Parkinson’s disease (and parkinsonian syndromes)
+Benserazide,websearch-opus46,medium,10,7,1.0,0.1429,0.1,0.1,1.0,Parkinson's Disease
+Benserazide,websearch-sonnet45,medium,10,4,1.0,0.25,0.1,0.1,1.0,Parkinson's Disease
+"benserazide, levodopa drug combination",pipeline-gpt41,hard,15,1,1.0,1.0,0.0667,0.0667,,Parkinson's disease
+"benserazide, levodopa drug combination",pipeline-gpt52,hard,15,0,0.0,0.0,0.0,0.0,,
+"benserazide, levodopa drug combination",pipeline-opus46,hard,15,6,1.0,0.3333,0.0667,0.1333,0.875,Parkinson's disease; Restless legs syndrome
+"benserazide, levodopa drug combination",pipeline-sonnet45,hard,15,3,1.0,0.6667,0.0667,0.1333,1.0,Parkinson's disease; restless legs syndrome
+benserazide/levodopa,websearch-gpt41,hard,15,3,1.0,0.6667,0.0667,0.1333,1.0,Parkinson's disease; Restless Legs Syndrome
+Benserazide/Levodopa,websearch-opus46,hard,15,7,1.0,0.2857,0.0667,0.1333,0.9,Parkinson Disease; Restless Legs Syndrome / Periodic Limb Movement in Sleep
+Benserazide-Levodopa,websearch-sonnet45,hard,15,6,1.0,0.3333,0.0667,0.1333,0.85,Parkinson's disease; Restless legs syndrome
+Betaine,pipeline-gpt41,hard,29,2,1.0,0.5,0.0345,0.0345,1.0,homocystinuria
+Betaine,pipeline-gpt52,hard,29,2,1.0,0.5,0.0345,0.0345,1.0,homocystinuria
+BETAINE,pipeline-sonnet45,hard,29,4,1.0,0.25,0.0345,0.0345,1.0,homocystinuria
+betaine,websearch-gpt41,hard,29,7,1.0,0.1429,0.0345,0.0345,1.0,Homocystinuria (Cystathionine Beta-Synthase [CBS] Deficiency)
+Betaine (trimethylglycine),websearch-gpt52,hard,29,5,0.0,0.0,0.0,0.0,,
+Betaine,websearch-opus46,hard,29,9,1.0,0.2222,0.0345,0.069,1.0,Homocystinuria; Alcoholic Liver Disease
+Betaine,websearch-sonnet45,hard,29,6,1.0,0.3333,0.0345,0.069,0.8125,Homocystinuria (Classical CBS Deficiency); Alcoholic liver disease
+Betamethasone,pipeline-gpt41,medium,23,12,1.0,0.3,0.0435,0.087,0.8636,psoriasis; newborn respiratory distress syndrome; acute respiratory distress syndrome (ARDS)
+Betamethasone,pipeline-gpt52,medium,23,8,1.0,0.375,0.0435,0.087,0.7667,Psoriasis; Newborn respiratory distress syndrome (RDS); Acute respiratory distress syndrome (ARDS)
+Betamethasone,pipeline-opus46,medium,23,15,1.0,0.3,0.0435,0.087,0.9222,Psoriasis; Newborn respiratory distress syndrome; Acute respiratory distress syndrome
+Betamethasone,pipeline-sonnet45,medium,23,13,1.0,0.5,0.0435,0.1739,0.94,Newborn Respiratory Distress Syndrome; Atopic Dermatitis; Psoriasis; Acute Respiratory Distress Syndrome; Rheumatoid Arthritis
+Betamethasone,websearch-gpt41,medium,23,11,1.0,0.4,0.0435,0.1739,0.9643,Neonatal respiratory distress syndrome (RDS); Psoriasis; Atopic dermatitis; Rheumatoid arthritis
+Betamethasone,websearch-gpt52,medium,23,17,0.0,0.4,0.0,0.1739,0.8269,Atopic dermatitis; Rheumatoid arthritis; Contact dermatitis; Psoriasis
+Betamethasone,websearch-opus46,medium,23,8,0.0,0.375,0.0,0.1304,0.8,Psoriasis; Atopic Dermatitis / Eczema; Rheumatoid Arthritis
+Betamethasone,websearch-sonnet45,medium,23,9,0.0,0.3333,0.0,0.1304,0.75,Rheumatoid Arthritis; Psoriasis; Atopic Dermatitis
+BUMETANIDE,pipeline-gpt41,hard,10,7,0.0,0.4286,0.0,0.3,0.75,kidney disease; heart failure; nephrotic syndrome
+Bumetanide,pipeline-gpt52,hard,10,6,1.0,0.5,0.1,0.3,0.8333,heart failure; nephrotic syndrome; kidney disease
+Bumetanide,pipeline-opus46,hard,10,9,0.0,0.3333,0.0,0.3,0.8571,Hypertension (cardiovascular disease); Nephrotic syndrome; Kidney disease (chronic kidney disease)
+Bumetanide,pipeline-sonnet45,hard,10,8,1.0,0.375,0.1,0.3,0.6667,Heart failure; Nephrotic syndrome; Kidney disease
+Bumetanide,websearch-gpt41,hard,10,5,1.0,0.4,0.1,0.2,1.0,"Edema (including heart failure, liver cirrhosis, nephrotic syndrome); Hypertension"
+Bumetanide,websearch-opus46,hard,10,8,1.0,0.25,0.1,0.2,1.0,Edema / Congestive Heart Failure; Hypertension
+Bumetanide,websearch-sonnet45,hard,10,6,0.0,0.0,0.0,0.0,,
+Celecoxib,pipeline-gpt41,medium,52,7,1.0,0.5714,0.0192,0.0769,0.7083,Osteoarthritis; Pain (including Dysmenorrhea and Neuropathic Pain); Familial adenomatous polyposis; Colorectal neoplasm (including Colorectal cancer)
+Celecoxib,pipeline-gpt52,medium,52,8,1.0,0.25,0.0192,0.0385,0.697,Osteoarthritis (including knee/hip); Familial adenomatous polyposis
+Celecoxib,pipeline-opus46,medium,52,16,1.0,0.4,0.0192,0.0769,0.7188,Osteoarthritis; Pain; Familial adenomatous polyposis; Gout
+Celecoxib,pipeline-sonnet45,medium,52,16,1.0,0.3,0.0192,0.0577,0.625,Osteoarthritis; Familial Adenomatous Polyposis; Colorectal Neoplasm
+celecoxib,websearch-gpt41,medium,52,7,1.0,0.2857,0.0192,0.0385,0.6667,Osteoarthritis; Familial adenomatous polyposis (FAP) / Colorectal adenomas
+Celecoxib,websearch-gpt52,medium,52,6,1.0,0.3333,0.0192,0.0385,0.6667,Osteoarthritis; Familial adenomatous polyposis (FAP)
+Celecoxib,websearch-opus46,medium,52,10,1.0,0.2,0.0192,0.0385,0.8125,Osteoarthritis; Familial Adenomatous Polyposis / Colorectal Adenoma Prevention
+Celecoxib,websearch-sonnet45,medium,52,6,1.0,0.1667,0.0192,0.0192,0.9167,Osteoarthritis
+Cilostazol,pipeline-gpt41,hard,14,6,0.0,0.3333,0.0,0.1429,0.5,Ischemic stroke; Heart failure
+Cilostazol,pipeline-gpt52,hard,14,4,0.0,0.25,0.0,0.0714,0.7143,Ischemic stroke
+Cilostazol,pipeline-opus46,hard,14,10,0.0,0.2,0.0,0.1429,0.6111,Ischemic stroke; Heart failure
+Cilostazol,pipeline-sonnet45,hard,14,8,0.0,0.125,0.0,0.0714,0.4375,Ischemic stroke
+Cilostazol,websearch-gpt41,hard,14,4,0.0,0.0,0.0,0.0,,
+cilostazol,websearch-gpt52,hard,14,0,0.0,0.0,0.0,0.0,,
+Cilostazol,websearch-opus46,hard,14,5,0.0,0.2,0.0,0.0714,0.5,Ischemic Stroke (Secondary Prevention)
+Cilostazol,websearch-sonnet45,hard,14,5,0.0,0.2,0.0,0.0714,0.75,Ischemic Stroke (Secondary Prevention)
+Crizotinib,pipeline-gpt41,hard,16,3,1.0,0.6667,0.0625,0.1875,0.5833,non-small cell lung carcinoma; lung adenocarcinoma
+Crizotinib,pipeline-gpt52,hard,16,4,1.0,0.75,0.0625,0.1875,0.6,non-small cell lung carcinoma; lung adenocarcinoma; adenocarcinoma
+Crizotinib,pipeline-opus46,hard,16,12,1.0,0.7,0.0625,0.375,0.8429,Non-small cell lung carcinoma (ALK-rearranged); Non-small cell lung carcinoma (ROS1-rearranged); Lung adenocarcinoma; Anaplastic large cell lymphoma (ALK-positive); Non-small cell lung carcinoma (MET-altered); Neuroblastoma; Acute myeloid leukemia (ALK-fusion positive)
+Crizotinib,pipeline-sonnet45,hard,16,6,1.0,0.8333,0.0625,0.375,0.9333,non-small cell lung carcinoma; lung adenocarcinoma; neuroblastoma; anaplastic large cell lymphoma; acute myeloid leukemia
+Crizotinib,websearch-gpt41,hard,16,5,0.0,0.2,0.0,0.0625,0.125,Anaplastic Large Cell Lymphoma (ALK-positive)
+Crizotinib,websearch-gpt52,hard,16,6,0.0,0.0,0.0,0.0,,
+Crizotinib,websearch-opus46,hard,16,8,0.0,0.125,0.0,0.0625,0.1429,Neuroblastoma
+Crizotinib,websearch-sonnet45,hard,16,5,0.0,0.2,0.0,0.0625,0.5,Anaplastic Large Cell Lymphoma
+Danazol,pipeline-gpt41,easy,20,6,1.0,0.3333,0.05,0.1,0.6875,Endometriosis; Aplastic anemia
+Danazol,pipeline-gpt52,easy,20,3,1.0,0.3333,0.05,0.05,0.3333,endometriosis
+Danazol,pipeline-sonnet45,easy,20,6,1.0,0.5,0.05,0.2,0.8095,endometriosis; aplastic anemia; autoimmune thrombocytopenic purpura
+Danazol,websearch-gpt41,easy,20,12,1.0,0.4,0.05,0.2,0.9531,Hereditary Angioedema; Endometriosis; Immune Thrombocytopenia (ITP); Autoimmune Hemolytic Anemia (AIHA)
+Danazol,websearch-gpt52,easy,20,5,1.0,0.6,0.05,0.15,0.8333,Endometriosis; Hereditary angioedema (HAE); Menorrhagia / heavy menstrual bleeding (including endometrial hyperplasia-related bleeding)
+Danazol,websearch-opus46,easy,20,9,1.0,0.5556,0.05,0.25,1.0,Endometriosis; Hereditary Angioedema (HAE); Aplastic Anemia / Bone Marrow Failure Syndromes; Immune Thrombocytopenic Purpura (ITP); Autoimmune Hemolytic Anemia (AIHA)
+Danazol,websearch-sonnet45,easy,20,5,1.0,0.6,0.05,0.15,1.0,Endometriosis; Hereditary Angioedema; Immune Thrombocytopenia
+DAPAGLIFLOZIN,pipeline-gpt41,medium,20,9,0.0,0.1111,0.0,0.05,0.4375,Insulin resistance/obesity
+dapagliflozin,pipeline-gpt52,medium,20,12,0.0,0.0,0.0,0.0,0.2143,
+dapagliflozin,pipeline-opus46,medium,20,16,0.0,0.1,0.0,0.05,0.5667,Insulin resistance
+dapagliflozin,pipeline-sonnet45,medium,20,15,0.0,0.1,0.0,0.05,0.6429,insulin resistance
+dapagliflozin,websearch-gpt41,medium,20,6,0.0,0.0,0.0,0.0,,
+dapagliflozin,websearch-gpt52,medium,20,7,0.0,0.1429,0.0,0.05,0.3333,Obesity / overweight
+Dapagliflozin,websearch-opus46,medium,20,8,0.0,0.125,0.0,0.05,0.1429,Obesity / Overweight
+dapagliflozin,websearch-sonnet45,medium,20,6,0.0,0.0,0.0,0.0,,
+Decitabine,pipeline-gpt41,easy,42,5,1.0,0.6,0.0238,0.0952,1.0,myelodysplastic syndrome; acute myeloid leukemia; chronic myelomonocytic leukemia
+Decitabine,pipeline-gpt52,easy,42,7,1.0,0.5714,0.0238,0.119,0.85,myelodysplastic syndrome; acute myeloid leukemia; chronic myelomonocytic leukemia; neoplasm
+Decitabine,pipeline-opus46,easy,42,9,1.0,0.5556,0.0238,0.119,0.8,"Myelodysplastic syndrome; Acute myeloid leukemia; Chronic myelomonocytic leukemia; Chronic myeloid leukemia; Neoplasm (solid tumors - breast cancer, hepatocellular carcinoma, oral squamous cell carcinoma, glioma)"
+DECITABINE,pipeline-sonnet45,easy,42,6,1.0,0.6667,0.0238,0.119,0.9167,myelodysplastic syndrome; acute myeloid leukemia; chronic myelomonocytic leukemia; neoplasm
+decitabine,websearch-gpt41,easy,42,5,1.0,0.8,0.0238,0.0952,0.9583,Myelodysplastic Syndromes (MDS); Acute Myeloid Leukemia (AML); Chronic Myelomonocytic Leukemia (CMML); Chronic Myeloid Leukemia (CML)
+Decitabine,websearch-gpt52,easy,42,6,1.0,0.5,0.0238,0.0952,1.0,Myelodysplastic syndromes (MDS); Acute myeloid leukemia (AML); Chronic myelomonocytic leukemia (CMML)
+Decitabine,websearch-opus46,easy,42,8,1.0,0.5,0.0238,0.0952,0.9375,Myelodysplastic Syndromes (MDS); Acute Myeloid Leukemia (AML); Chronic Myelomonocytic Leukemia (CMML); Chronic Myeloid Leukemia (CML)
+Decitabine,websearch-sonnet45,easy,42,3,1.0,0.6667,0.0238,0.0714,1.0,Myelodysplastic Syndrome; Acute Myeloid Leukemia
+Disulfiram,pipeline-gpt41,hard,28,7,0.0,0.2857,0.0,0.0714,0.75,melanoma; non-small cell lung carcinoma
+Disulfiram,pipeline-gpt52,hard,28,3,0.0,0.3333,0.0,0.0357,0.5625,alcohol-related disorders
+Disulfiram,pipeline-sonnet45,hard,28,10,0.0,0.4,0.0,0.1429,0.7143,alcohol-related disorders; non-small cell lung carcinoma; melanoma; breast neoplasm
+Disulfiram,websearch-gpt41,hard,28,3,0.0,0.0,0.0,0.0,,
+Disulfiram,websearch-gpt52,hard,28,0,0.0,0.0,0.0,0.0,,
+Disulfiram,websearch-opus46,hard,28,8,0.0,0.125,0.0,0.0357,0.0714,Melanoma
+Disulfiram,websearch-sonnet45,hard,28,5,0.0,0.0,0.0,0.0,,
+Doxepin,pipeline-gpt41,hard,13,4,1.0,0.5,0.1538,0.2308,0.75,depressive disorder; Sleep Disorder
+Doxepin,pipeline-gpt52,hard,13,4,1.0,0.5,0.1538,0.2308,1.0,depressive disorder; Sleep Disorder
+Doxepin,pipeline-opus46,hard,13,5,1.0,0.4,0.1538,0.2308,0.75,Depressive Disorder; Pruritus (general)
+Doxepin,pipeline-sonnet45,hard,13,4,0.0,0.5,0.0,0.2308,0.5,depressive disorder; Sleep Disorder
+doxepin,websearch-gpt41,hard,13,5,1.0,0.4,0.1538,0.2308,0.6667,Major Depressive Disorder; Anxiety Disorders
+Doxepin,websearch-opus46,hard,13,7,1.0,0.4286,0.1538,0.3077,0.8333,Major Depressive Disorder; Pruritus (Chronic Itch / Atopic Dermatitis); Anxiety Disorders (Generalized Anxiety)
+Doxepin,websearch-sonnet45,hard,13,8,0.0,0.25,0.0,0.2308,0.7083,Major depressive disorder; Anxiety disorders
+Epoprostenol,pipeline-gpt41,medium,17,2,1.0,1.0,0.0588,0.0588,1.0,pulmonary arterial hypertension; pulmonary hypertension
+Epoprostenol,pipeline-gpt52,medium,17,2,1.0,1.0,0.0588,0.0588,1.0,pulmonary arterial hypertension; pulmonary hypertension
+Epoprostenol,pipeline-opus46,medium,17,3,1.0,0.6667,0.0588,0.0588,1.0,Pulmonary arterial hypertension; Pulmonary hypertension
+EPOPROSTENOL,pipeline-sonnet45,medium,17,6,1.0,0.3333,0.0588,0.0588,1.0,pulmonary arterial hypertension; pulmonary hypertension
+Epoprostenol,websearch-gpt41,medium,17,6,1.0,0.1667,0.0588,0.0588,0.9,Pulmonary Arterial Hypertension
+Epoprostenol,websearch-gpt52,medium,17,9,1.0,0.2222,0.0588,0.0588,1.0,Pulmonary arterial hypertension; Pulmonary hypertension
+Epoprostenol,websearch-opus46,medium,17,7,1.0,0.1429,0.0588,0.0588,1.0,Pulmonary Arterial Hypertension (PAH)
+Epoprostenol,websearch-sonnet45,medium,17,6,1.0,0.1667,0.0588,0.0588,1.0,Pulmonary Arterial Hypertension
+ERLOTINIB HYDROCHLORIDE,pipeline-gpt41,medium,14,7,1.0,0.2857,0.0714,0.2143,1.0,Non-small cell lung carcinoma (NSCLC); Lung adenocarcinoma
+Erlotinib Hydrochloride,pipeline-gpt52,medium,14,6,1.0,0.3333,0.0714,0.2143,0.7407,non-small cell lung carcinoma; lung adenocarcinoma
+Erlotinib Hydrochloride,pipeline-opus46,medium,14,21,1.0,0.3,0.0714,0.2857,0.7574,Non-small cell lung carcinoma; Lung adenocarcinoma; Squamous cell lung carcinoma
+Erlotinib Hydrochloride,pipeline-sonnet45,medium,14,11,1.0,0.2,0.0714,0.2143,1.0,non-small cell lung carcinoma; lung adenocarcinoma
+Erlotinib Hydrochloride,websearch-gpt41,medium,14,5,0.0,0.2,0.0,0.0714,0.0,Head and neck squamous cell carcinoma
+Erlotinib hydrochloride,websearch-gpt52,medium,14,6,0.0,0.1667,0.0,0.0714,0.4,Head and neck squamous cell carcinoma (HNSCC)
+Erlotinib Hydrochloride,websearch-opus46,medium,14,8,0.0,0.0,0.0,0.0,,
+Erlotinib Hydrochloride,websearch-sonnet45,medium,14,7,0.0,0.0,0.0,0.0,,
+ETHOSUXIMIDE,pipeline-gpt41,hard,11,5,1.0,0.2,0.0909,0.0909,0.875,epilepsy
+Ethosuximide,pipeline-gpt52,hard,11,3,0.0,0.6667,0.0,0.1818,0.8,epilepsy; Seizure
+Ethosuximide,pipeline-opus46,hard,11,8,1.0,0.25,0.0909,0.1818,0.875,epilepsy; Seizure
+ETHOSUXIMIDE,pipeline-sonnet45,hard,11,6,0.0,0.3333,0.0,0.1818,0.8,epilepsy; Seizure
+ethosuximide,websearch-gpt41,hard,11,4,0.0,0.0,0.0,0.0,,
+Ethosuximide,websearch-gpt52,hard,11,5,0.0,0.0,0.0,0.0,,
+Ethosuximide,websearch-opus46,hard,11,9,0.0,0.0,0.0,0.0,,
+Ethosuximide,websearch-sonnet45,hard,11,8,1.0,0.125,0.0909,0.0909,1.0,Absence Epilepsy (Childhood Absence Epilepsy)
+Fingolimod Hydrochloride,pipeline-gpt41,medium,13,3,1.0,0.6667,0.0769,0.1538,1.0,multiple sclerosis; relapsing-remitting multiple sclerosis
+Fingolimod Hydrochloride,pipeline-gpt52,medium,13,3,1.0,0.6667,0.0769,0.1538,1.0,multiple sclerosis; relapsing-remitting multiple sclerosis
+Fingolimod Hydrochloride,pipeline-opus46,medium,13,8,1.0,0.25,0.0769,0.1538,1.0,Relapsing-remitting multiple sclerosis; Multiple sclerosis
+Fingolimod Hydrochloride,pipeline-sonnet45,medium,13,4,1.0,0.5,0.0769,0.1538,1.0,relapsing-remitting multiple sclerosis; multiple sclerosis
+Fingolimod Hydrochloride,websearch-gpt41,medium,13,3,1.0,0.3333,0.0769,0.0769,1.0,Multiple Sclerosis (Relapsing-Remitting and Secondary-Progressive)
+Fingolimod hydrochloride (FTY720),websearch-gpt52,medium,13,6,1.0,0.1667,0.0769,0.0769,1.0,Multiple sclerosis (relapsing forms)
+Fingolimod Hydrochloride,websearch-opus46,medium,13,6,1.0,0.1667,0.0769,0.0769,1.0,Relapsing-Remitting Multiple Sclerosis (RRMS)
+Fingolimod Hydrochloride,websearch-sonnet45,medium,13,8,1.0,0.125,0.0769,0.0769,1.0,Relapsing-Remitting Multiple Sclerosis
+Flecainide,pipeline-gpt41,easy,13,3,1.0,0.6667,0.0769,0.1538,1.0,Atrial fibrillation; Cardiac arrhythmia (ventricular and supraventricular)
+Flecainide,pipeline-gpt52,easy,13,2,1.0,1.0,0.0769,0.1538,1.0,atrial fibrillation; cardiac arrhythmia
+Flecainide,pipeline-opus46,easy,13,5,1.0,0.6,0.0769,0.2308,1.0,Atrial fibrillation; Cardiac arrhythmia; Supraventricular tachyarrhythmia
+Flecainide,pipeline-sonnet45,easy,13,6,1.0,0.6667,0.0769,0.3077,1.0,Atrial fibrillation; Cardiac arrhythmia; Supraventricular tachycardia; Ventricular tachycardia
+Flecainide,websearch-gpt41,easy,13,6,0.0,0.0,0.0,0.0,,
+Flecainide,websearch-gpt52,easy,13,6,1.0,0.6667,0.0769,0.3077,1.0,Atrial fibrillation; Atrial flutter; Supraventricular tachycardia; Ventricular tachycardia
+Flecainide,websearch-opus46,easy,13,7,1.0,0.1429,0.0769,0.0769,0.9167,Atrial Fibrillation
+Flecainide,websearch-sonnet45,easy,13,6,1.0,0.3333,0.0769,0.1538,0.65,Atrial Fibrillation; Supraventricular Tachycardia
+Glycopyrrolate,pipeline-gpt41,medium,11,0,0.0,0.0,0.0,0.0,,
+Glycopyrrolate,pipeline-gpt52,medium,11,0,0.0,0.0,0.0,0.0,,
+Glycopyrrolate,pipeline-opus46,medium,11,7,1.0,0.4286,0.0909,0.2727,0.5833,Chronic Obstructive Pulmonary Disease (COPD); Bradycardia (perioperative); Asthma
+Glycopyrrolate,pipeline-sonnet45,medium,11,8,1.0,0.5,0.0909,0.3636,0.9375,Sialorrhea; Chronic Obstructive Pulmonary Disease; Asthma; Bradycardia
+glycopyrrolate,websearch-gpt41,medium,11,5,0.0,0.4,0.0,0.1818,0.3333,Chronic obstructive pulmonary disease (COPD); Hyperhidrosis (excessive sweating)
+Glycopyrrolate (glycopyrronium),websearch-gpt52,medium,11,5,1.0,0.2,0.0909,0.0909,0.875,Chronic obstructive pulmonary disease (COPD)
+Glycopyrrolate (Glycopyrronium Bromide),websearch-opus46,medium,11,10,1.0,0.2,0.0909,0.1818,0.9375,"Chronic Obstructive Pulmonary Disease (COPD); Sialorrhea / Chronic Severe Drooling (Neurological Conditions, e.g., Cerebral Palsy)"
+Glycopyrrolate,websearch-sonnet45,medium,11,3,1.0,1.0,0.0909,0.2727,,Chronic Obstructive Pulmonary Disease (COPD); Hyperhidrosis; Asthma
+icatibant,pipeline-gpt41,hard,12,2,1.0,0.5,0.0833,0.0833,1.0,hereditary angioedema (HAE)/angioedema
+icatibant,pipeline-gpt52,hard,12,2,1.0,0.5,0.0833,0.0833,1.0,hereditary angioedema
+icatibant,pipeline-opus46,hard,12,4,1.0,0.25,0.0833,0.0833,1.0,hereditary angioedema
+icatibant,pipeline-sonnet45,hard,12,6,1.0,0.1667,0.0833,0.0833,0.6429,hereditary angioedema
+icatibant,websearch-gpt41,hard,12,5,1.0,0.2,0.0833,0.0833,1.0,Hereditary Angioedema (HAE)
+icatibant,websearch-gpt52,hard,12,6,0.0,0.0,0.0,0.0,,
+Icatibant,websearch-opus46,hard,12,9,0.0,0.1111,0.0,0.0833,0.75,Hereditary Angioedema Type III (Estrogen-Dependent / Factor XII Mutations)
+Icatibant,websearch-sonnet45,hard,12,4,1.0,0.5,0.0833,0.0833,0.95,Hereditary Angioedema; Hereditary Angioedema Type III
+Imiquimod,pipeline-gpt41,medium,13,15,1.0,0.3,0.0769,0.2308,0.7969,actinic keratosis; basal cell carcinoma; keratosis
+Imiquimod,pipeline-gpt52,medium,13,4,1.0,0.5,0.0769,0.1538,1.0,basal cell carcinoma; actinic keratosis
+Imiquimod,pipeline-opus46,medium,13,16,1.0,0.2,0.0769,0.1538,0.9853,Actinic keratosis; Basal cell carcinoma
+Imiquimod,pipeline-sonnet45,medium,13,14,1.0,0.3,0.0769,0.2308,0.9778,actinic keratosis; basal cell carcinoma; keratosis
+Imiquimod,websearch-gpt41,medium,13,14,0.0,0.3,0.0,0.2308,0.5909,Actinic Keratosis; Oral Squamous Cell Carcinoma; Bowen's disease
+Imiquimod,websearch-gpt52,medium,13,6,1.0,0.3333,0.0769,0.1538,0.875,Condyloma acuminatum (genital warts; HPV-associated); Actinic keratosis
+Imiquimod,websearch-opus46,medium,13,7,0.0,0.4286,0.0,0.1538,0.4167,Actinic Keratosis; Squamous Cell Carcinoma (SCC) / Bowen Disease (SCC In Situ); Oral Squamous Cell Carcinoma (OSCC)
+Imiquimod,websearch-sonnet45,medium,13,7,1.0,0.2857,0.0769,0.1538,0.9,Basal Cell Carcinoma; Actinic Keratosis
+Ketorolac,pipeline-gpt41,hard,15,9,1.0,0.2222,0.0667,0.1333,0.9286,"Migraine disorder; Pain (including neuropathic pain, dysmenorrhea)"
+Ketorolac,pipeline-gpt52,hard,15,6,1.0,0.5,0.0667,0.2,0.9074,Pain; migraine disorder; Headache
+Ketorolac,pipeline-opus46,hard,15,15,1.0,0.4,0.0667,0.2667,0.9688,Pain (acute and chronic); Inflammation (general); Migraine disorder; Headache (acute)
+Ketorolac,pipeline-sonnet45,hard,15,9,1.0,0.4444,0.0667,0.2667,0.7857,Pain (acute and chronic); Migraine disorder; Inflammation (general); Headache (general)
+ketorolac,websearch-gpt41,hard,15,6,0.0,0.0,0.0,0.0,,
+Ketorolac,websearch-gpt52,hard,15,5,0.0,0.0,0.0,0.0,,
+Ketorolac,websearch-opus46,hard,15,9,0.0,0.1111,0.0,0.0667,0.75,Inflammation / Inflammatory Disorders (General)
+Ketorolac,websearch-sonnet45,hard,15,7,1.0,0.1429,0.0667,0.0667,0.8333,Acute postoperative pain
+Lidocaine,pipeline-gpt41,medium,69,3,1.0,0.3333,0.0145,0.0145,1.0,Cardiac arrhythmia
+Lidocaine,pipeline-gpt52,medium,69,2,1.0,0.5,0.0145,0.0145,1.0,cardiac arrhythmia
+Lidocaine,pipeline-opus46,medium,69,9,1.0,0.3333,0.0145,0.0435,0.7778,Cardiac arrhythmia; Postherpetic neuralgia; Erythromelalgia
+LIDOCAINE,pipeline-sonnet45,medium,69,3,1.0,0.3333,0.0145,0.0145,1.0,cardiac arrhythmia
+lidocaine,websearch-gpt41,medium,69,5,0.0,0.2,0.0,0.0145,0.875,Ventricular Tachyarrhythmias (including ventricular fibrillation and tachycardia)
+lidocaine,websearch-gpt52,medium,69,6,0.0,0.3333,0.0,0.0435,0.1667,"Postoperative pain (perioperative opioid-sparing with IV lidocaine infusion); Tinnitus (in selected cases; low confidence, historical/limited use)"
+Lidocaine,websearch-opus46,medium,69,6,0.0,0.0,0.0,0.0,,
+Lidocaine,websearch-sonnet45,medium,69,7,0.0,0.2857,0.0,0.029,0.5,Post-herpetic neuralgia; Erythromelalgia
+Medroxyprogesterone Acetate,pipeline-gpt41,medium,22,5,0.0,0.2,0.0,0.0455,0.625,"Endometrial neoplasm (polyps, sarcomas)"
+Medroxyprogesterone Acetate,pipeline-gpt52,medium,22,3,0.0,0.0,0.0,0.0,,
+Medroxyprogesterone Acetate,pipeline-opus46,medium,22,11,0.0,0.1,0.0,0.0455,0.4667,renal carcinoma
+Medroxyprogesterone Acetate,pipeline-sonnet45,medium,22,8,0.0,0.25,0.0,0.0909,0.4286,Endometrial hyperplasia; Renal cell carcinoma
+Medroxyprogesterone Acetate,websearch-gpt41,medium,22,11,0.0,0.1,0.0,0.0455,0.9,Endometrial hyperplasia (Prevention)
+medroxyprogesterone acetate,websearch-gpt52,medium,22,8,1.0,0.25,0.0455,0.0909,0.75,Endometrial hyperplasia; Endometrial carcinoma
+Medroxyprogesterone Acetate,websearch-opus46,medium,22,10,0.0,0.0,0.0,0.0,,
+Medroxyprogesterone Acetate,websearch-sonnet45,medium,22,5,0.0,0.2,0.0,0.0455,0.875,Endometrial Hyperplasia
+Mefenamic Acid,pipeline-gpt41,easy,17,3,1.0,0.6667,0.0588,0.1176,0.8333,Dysmenorrhea; Pain (including neuropathic and inflammatory pain)
+Mefenamic acid,pipeline-gpt52,easy,17,3,1.0,0.6667,0.0588,0.1176,1.0,Dysmenorrhea; Pain
+Mefenamic Acid,pipeline-sonnet45,easy,17,4,0.0,0.25,0.0,0.0588,0.6,Pain (including neuropathic pain and inflammatory pain)
+mefenamic acid,websearch-gpt41,easy,17,9,0.0,0.2222,0.0,0.1176,0.7143,Menorrhagia; Fever (Pyrexia)
+Mefenamic acid,websearch-gpt52,easy,17,7,0.0,0.5714,0.0,0.2941,0.35,Menorrhagia (heavy menstrual bleeding); Osteoarthritis (pain/inflammation); Fever; Rheumatoid arthritis (symptom control)
+Mefenamic Acid,websearch-opus46,easy,17,10,1.0,0.4,0.1176,0.2941,1.0,Osteoarthritis; Dysmenorrhoea (Primary Dysmenorrhea); Rheumatoid Arthritis; Menorrhagia (Heavy Menstrual Bleeding)
+Mefenamic Acid,websearch-sonnet45,easy,17,8,0.0,0.125,0.0,0.0588,0.4286,Menorrhagia
+Memantine,pipeline-gpt41,easy,37,6,1.0,0.1667,0.027,0.027,1.0,Dementia
+Memantine,pipeline-gpt52,easy,37,5,1.0,0.2,0.027,0.027,1.0,Dementia
+Memantine,pipeline-opus46,easy,37,7,1.0,0.1429,0.027,0.027,1.0,Alzheimer's disease / Dementia
+Memantine,pipeline-sonnet45,easy,37,6,1.0,0.1667,0.027,0.027,1.0,Dementia
+memantine,websearch-gpt41,easy,37,6,1.0,0.3333,0.027,0.0541,1.0,Alzheimer's disease; vascular dementia
+memantine,websearch-gpt52,easy,37,4,1.0,0.5,0.027,0.0541,0.7917,Alzheimer’s disease / Alzheimer-type dementia; Vascular dementia / mixed dementia
+Memantine,websearch-opus46,easy,37,9,1.0,0.2222,0.027,0.0541,0.6429,Alzheimer's Disease; Major Depressive Disorder / Bipolar Depression
+Memantine,websearch-sonnet45,easy,37,7,1.0,0.2857,0.027,0.0541,0.8,Alzheimer's Disease; Vascular Dementia
+Meperidine,pipeline-gpt41,medium,20,2,1.0,0.5,0.05,0.05,1.0,Pain
+Meperidine,pipeline-gpt52,medium,20,1,1.0,1.0,0.05,0.05,1.0,Pain
+Meperidine,pipeline-opus46,medium,20,5,1.0,0.2,0.05,0.05,1.0,"Pain (moderate to severe, including postoperative and labor pain)"
+Meperidine,pipeline-sonnet45,medium,20,3,1.0,1.0,0.05,0.15,1.0,Pain; Postoperative pain; Labor pain
+meperidine,websearch-gpt41,medium,20,5,0.0,0.4,0.0,0.1,0.3333,Postoperative pain; Labor pain (obstetric pain)
+Meperidine (pethidine),websearch-gpt52,medium,20,4,0.0,0.25,0.0,0.05,0.1429,Labor pain
+Meperidine (Pethidine),websearch-opus46,medium,20,6,1.0,0.3333,0.05,0.1,0.9167,"Pain (Acute, Moderate-to-Severe; Postoperative Pain; Labour Pain); Postoperative / Perianaesthetic Shivering (Hypothermia-Induced Shivering)"
+Meperidine,websearch-sonnet45,medium,20,6,0.0,0.1667,0.0,0.05,0.4286,Labor Pain
+Mexiletine,pipeline-gpt41,medium,11,5,1.0,0.4,0.0909,0.1818,1.0,cardiac arrhythmia; ventricular fibrillation
+Mexiletine,pipeline-gpt52,medium,11,3,1.0,0.6667,0.0909,0.1818,1.0,cardiac arrhythmia; ventricular fibrillation
+Mexiletine,pipeline-opus46,medium,11,8,1.0,0.375,0.0909,0.2727,0.6667,"Cardiac arrhythmia (ventricular arrhythmias, atrial fibrillation, Long QT syndrome type 3, Brugada syndrome); Ventricular fibrillation; Erythromelalgia"
+Mexiletine,pipeline-sonnet45,medium,11,7,1.0,0.2857,0.0909,0.1818,0.95,Cardiac arrhythmia; Ventricular fibrillation
+mexiletine,websearch-gpt41,medium,11,6,0.0,0.1667,0.0,0.0909,0.4,Long QT Syndrome Type 3 (LQT3)
+Mexiletine,websearch-gpt52,medium,11,4,1.0,0.25,0.0909,0.0909,1.0,Long QT syndrome type 3
+Mexiletine,websearch-opus46,medium,11,9,1.0,0.3333,0.0909,0.1818,0.8333,Ventricular Tachycardia / Ventricular Fibrillation (VT/VF); Long QT Syndrome Type 3 (LQT3); Long QT Syndrome Type 2 (LQT2)
+Mexiletine,websearch-sonnet45,medium,11,8,0.0,0.125,0.0,0.0909,0.8571,Long QT Syndrome Type 3
+Mifepristone,pipeline-gpt41,medium,21,1,1.0,1.0,0.0476,0.0476,,Cushing syndrome
+Mifepristone,pipeline-gpt52,medium,21,5,1.0,0.4,0.0476,0.0952,0.8889,Cushing syndrome; spontaneous abortion
+Mifepristone,pipeline-opus46,medium,21,14,1.0,0.3,0.0476,0.1429,0.75,Cushing syndrome; Spontaneous abortion / Miscarriage; Endometriosis
+MIFEPRISTONE,pipeline-sonnet45,medium,21,10,1.0,0.2,0.0476,0.0952,0.9,Cushing syndrome; endometriosis
+mifepristone,websearch-gpt41,medium,21,6,0.0,0.3333,0.0,0.0952,0.625,Cushing’s syndrome (Hypercortisolism); Endometriosis
+mifepristone,websearch-gpt52,medium,21,7,0.0,0.1429,0.0,0.0476,0.3333,Endometriosis
+Mifepristone,websearch-opus46,medium,21,9,1.0,0.2222,0.0476,0.0952,0.7143,Cushing's Syndrome (Endogenous Hypercortisolism); Endometriosis
+Mifepristone,websearch-sonnet45,medium,21,7,0.0,0.2857,0.0,0.0952,0.75,Cushing's syndrome; Endometriosis
+Mirtazapine,pipeline-gpt41,medium,31,3,0.0,0.6667,0.0,0.0645,0.8333,depressive disorder; major depressive disorder
+Mirtazapine,pipeline-gpt52,medium,31,3,1.0,0.6667,0.0645,0.0645,1.0,major depressive disorder; depressive disorder
+Mirtazapine,pipeline-opus46,medium,31,3,1.0,0.6667,0.0645,0.0645,1.0,major depressive disorder; depressive disorder
+Mirtazapine,pipeline-sonnet45,medium,31,3,1.0,0.6667,0.0645,0.0645,1.0,major depressive disorder; depressive disorder
+Mirtazapine,websearch-gpt41,medium,31,10,1.0,0.3,0.0645,0.129,0.5238,Major Depressive Disorder; Obsessive-Compulsive Disorder (OCD); Parkinson’s Disease
+mirtazapine,websearch-gpt52,medium,31,13,1.0,0.1,0.0645,0.0645,1.0,Major depressive disorder (MDD)
+Mirtazapine,websearch-opus46,medium,31,10,1.0,0.1,0.0645,0.0645,1.0,Major Depressive Disorder
+Mirtazapine,websearch-sonnet45,medium,31,7,1.0,0.1429,0.0645,0.0645,0.9167,Major Depressive Disorder
+Modafinil,pipeline-gpt41,medium,16,4,1.0,0.5,0.0625,0.125,0.7778,Narcolepsy; Attention Deficit Hyperactivity Disorder (ADHD)
+Modafinil,pipeline-gpt52,medium,16,3,1.0,0.6667,0.0625,0.125,0.5833,narcolepsy; Sleep Disorder
+Modafinil,pipeline-opus46,medium,16,18,1.0,0.6,0.0625,0.3125,0.7468,Narcolepsy; Sleep Disorder; Attention deficit hyperactivity disorder; Narcolepsy (ABCB1 pharmacogenetics); Major depressive disorder; Depressive disorder
+MODAFINIL,pipeline-sonnet45,medium,16,16,1.0,0.6,0.0625,0.375,0.95,narcolepsy; attention deficit hyperactivity disorder; Sleep Disorder; major depressive disorder; depressive disorder; schizophrenia
+Modafinil,websearch-gpt41,medium,16,7,1.0,0.4286,0.0625,0.1875,0.6667,Narcolepsy (Excessive Daytime Sleepiness); Shift Work Sleep Disorder; Attention Deficit Hyperactivity Disorder (ADHD)
+Modafinil,websearch-gpt52,medium,16,7,1.0,0.2857,0.0625,0.1875,0.7,Narcolepsy (excessive daytime sleepiness); Major depressive disorder (adjunct for fatigue/sleepiness; augmentation)
+Modafinil,websearch-opus46,medium,16,9,1.0,0.4444,0.0625,0.3125,0.7,Narcolepsy; Shift Work Sleep Disorder; Major Depressive Disorder / Bipolar Depression; Schizophrenia (Cognitive Deficits)
+Modafinil,websearch-sonnet45,medium,16,6,1.0,0.8333,0.0625,0.375,0.2,Narcolepsy; Shift Work Sleep Disorder; Attention Deficit Hyperactivity Disorder (ADHD); Major Depressive Disorder; Bipolar Disorder
+Nalbuphine,pipeline-gpt41,easy,14,2,1.0,1.0,0.0714,0.1429,1.0,Pain; Pruritus (including prurigo nodularis and chronic itch)
+Nalbuphine,pipeline-gpt52,easy,14,3,1.0,0.6667,0.0714,0.1429,1.0,Pain; Pruritus
+Nalbuphine,pipeline-opus46,easy,14,7,1.0,0.2857,0.0714,0.1429,1.0,"Pain (including neuropathic pain); Pruritus (chronic itch, including uremic pruritus)"
+Nalbuphine,pipeline-sonnet45,easy,14,5,1.0,0.4,0.0714,0.1429,1.0,Pain; Pruritus
+Nalbuphine,websearch-gpt41,easy,14,10,0.0,0.0,0.0,0.0,,
+Nalbuphine,websearch-gpt52,easy,14,4,0.0,0.5,0.0,0.1429,0.8,Pruritus (especially neuraxial/opioid-induced pruritus; postoperative itching); Labor pain (obstetric analgesia)
+Nalbuphine,websearch-opus46,easy,14,10,0.0,0.1,0.0,0.0714,0.8889,Pruritus (Opioid-Induced Pruritus)
+Nalbuphine,websearch-sonnet45,easy,14,8,0.0,0.0,0.0,0.0,,
+Nicardipine,pipeline-gpt41,medium,27,8,1.0,0.375,0.0741,0.1852,0.8667,Hypertension; Coronary Artery Disease; Heart Failure
+Nicardipine,pipeline-gpt52,medium,27,4,1.0,0.75,0.0741,0.1481,0.8333,hypertension; cardiovascular disease; subarachnoid hemorrhage
+Nicardipine,pipeline-sonnet45,medium,27,7,1.0,0.5714,0.0741,0.1852,0.8,hypertension; cardiovascular disease; subarachnoid hemorrhage; heart failure
+nicardipine,websearch-gpt41,medium,27,7,1.0,0.1429,0.0741,0.0741,1.0,Hypertension
+nicardipine,websearch-gpt52,medium,27,5,1.0,0.4,0.0741,0.1111,0.875,Hypertension; Angina pectoris / stable ischemic heart disease
+Nicardipine,websearch-opus46,medium,27,10,1.0,0.1,0.0741,0.0741,1.0,Hypertension (Essential / Primary)
+Nicardipine,websearch-sonnet45,medium,27,7,1.0,0.2857,0.0741,0.1111,1.0,Hypertension; Angina Pectoris
+Nimodipine,pipeline-gpt41,easy,41,4,1.0,0.5,0.0244,0.0488,1.0,Subarachnoid hemorrhage; Stroke
+Nimodipine,pipeline-gpt52,easy,41,2,1.0,1.0,0.0244,0.0488,1.0,subarachnoid hemorrhage; stroke
+Nimodipine,pipeline-sonnet45,easy,41,7,1.0,0.4286,0.0244,0.0732,1.0,Subarachnoid hemorrhage; Stroke; Hypertension
+nimodipine,websearch-gpt41,easy,41,5,0.0,0.0,0.0,0.0,,
+nimodipine,websearch-gpt52,easy,41,2,1.0,0.5,0.0244,0.0244,0.6875,Aneurysmal subarachnoid hemorrhage (aSAH) / delayed cerebral ischemia
+Nimodipine,websearch-opus46,easy,41,9,1.0,0.2222,0.0244,0.0488,0.8214,Subarachnoid Hemorrhage (SAH) -- Cerebral Vasospasm; Bipolar Disorder
+Nimodipine,websearch-sonnet45,easy,41,6,1.0,0.3333,0.0244,0.0244,1.0,Subarachnoid hemorrhage (Aneurysmal); Traumatic subarachnoid hemorrhage
+obeticholic acid,pipeline-gpt41,medium,27,6,0.0,0.3333,0.0,0.0741,0.6667,non-alcoholic fatty liver disease (NAFLD) / non-alcoholic steatohepatitis (NASH); cholestasis
+obeticholic acid,pipeline-gpt52,medium,27,4,0.0,0.25,0.0,0.037,0.5185,non-alcoholic fatty liver disease
+obeticholic acid,pipeline-opus46,medium,27,11,0.0,0.2,0.0,0.0741,0.8333,Non-alcoholic fatty liver disease (NAFLD); Cholestasis (intrahepatic)
+obeticholic acid,pipeline-sonnet45,medium,27,8,0.0,0.25,0.0,0.0741,0.6875,non-alcoholic fatty liver disease; cholestasis
+obeticholic acid,websearch-gpt41,medium,27,4,0.0,0.5,0.0,0.0741,0.5,Nonalcoholic Fatty Liver Disease (NAFLD) / MASLD / MAFLD; Liver Fibrosis / Cirrhosis (of other etiologies)
+Obeticholic acid,websearch-gpt52,medium,27,4,0.0,0.25,0.0,0.037,0.3333,liver fibrosis
+Obeticholic Acid,websearch-opus46,medium,27,6,0.0,0.1667,0.0,0.037,0.6,Nonalcoholic Fatty Liver Disease (NAFLD)
+Obeticholic acid,websearch-sonnet45,medium,27,5,0.0,0.2,0.0,0.037,0.5,Non-alcoholic fatty liver disease
+Olanzapine,pipeline-gpt41,easy,53,5,1.0,0.6,0.0189,0.0755,0.5833,Schizophrenia; Bipolar I Disorder; Major Depressive Disorder
+Olanzapine,pipeline-gpt52,easy,53,5,0.0,0.6,0.0,0.0566,0.3333,bipolar disorder; bipolar I disorder; major depressive disorder
+Olanzapine,pipeline-opus46,easy,53,7,1.0,0.5714,0.0189,0.0755,0.9375,Schizophrenia (Psychosis); Bipolar disorder; Bipolar I disorder; Major depressive disorder
+Olanzapine,pipeline-sonnet45,easy,53,6,1.0,0.6667,0.0189,0.0755,0.5,Schizophrenia; Bipolar Disorder; Bipolar I Disorder; Major Depressive Disorder
+Olanzapine,websearch-gpt41,easy,53,5,1.0,0.4,0.0189,0.0377,1.0,Schizophrenia; Bipolar Disorder
+Olanzapine,websearch-gpt52,easy,53,5,1.0,0.6,0.0189,0.0755,0.8333,Schizophrenia; Bipolar I disorder (acute mania; maintenance in some patients); Major depressive disorder (MDD) — adjunct (notably in combination with fluoxetine; “treatment-resistant depression” contexts)
+Olanzapine,websearch-opus46,easy,53,6,1.0,0.8333,0.0189,0.1132,0.8,Schizophrenia; Bipolar Disorder (Acute Mania); Psychomotor Agitation (associated with Schizophrenia and Bipolar I Mania); Major Depressive Disorder; Anorexia Nervosa
+Olanzapine,websearch-sonnet45,easy,53,5,1.0,0.4,0.0189,0.0377,1.0,Schizophrenia; Bipolar Disorder
+olmesartan,pipeline-gpt41,medium,17,5,1.0,0.2,0.1176,0.1176,1.0,hypertension
+olmesartan,pipeline-gpt52,medium,17,4,1.0,0.25,0.1176,0.1176,1.0,hypertension
+olmesartan,pipeline-opus46,medium,17,8,1.0,0.125,0.1176,0.1176,1.0,hypertension
+olmesartan,pipeline-sonnet45,medium,17,10,1.0,0.2,0.1176,0.1765,0.6875,hypertension; diabetic nephropathy
+olmesartan,websearch-gpt41,medium,17,3,1.0,0.6667,0.1176,0.1765,0.5,Hypertension; Diabetic Nephropathy
+Olmesartan,websearch-gpt52,medium,17,6,1.0,0.1667,0.1176,0.1176,1.0,Hypertension (essential hypertension)
+Olmesartan,websearch-opus46,medium,17,9,0.0,0.2222,0.0,0.1176,0.5714,Diabetic Nephropathy; Myocardial Infarction
+Olmesartan,websearch-sonnet45,medium,17,7,1.0,0.2857,0.1176,0.1765,0.95,Hypertension; Diabetic nephropathy
+Olmesartan Medoxomil,pipeline-gpt41,hard,14,7,1.0,0.2857,0.0714,0.1429,0.5,Hypertension; Glomerulonephritis / IgA Nephropathy
+Olmesartan medoxomil,pipeline-gpt52,hard,14,6,1.0,0.1667,0.0714,0.0714,0.4583,hypertension
+Olmesartan Medoxomil,pipeline-opus46,hard,14,11,1.0,0.3,0.0714,0.2143,0.4167,Hypertension; Kidney Disease (Chronic Kidney Disease); Glomerulonephritis (IgA Nephropathy)
+Olmesartan Medoxomil,pipeline-sonnet45,hard,14,10,0.0,0.1,0.0,0.0714,0.0,Glomerulonephritis
+Olmesartan Medoxomil,websearch-gpt41,hard,14,7,1.0,0.1429,0.0714,0.0714,1.0,Hypertension
+Olmesartan medoxomil,websearch-gpt52,hard,14,5,0.0,0.0,0.0,0.0,,
+Olmesartan Medoxomil,websearch-opus46,hard,14,7,0.0,0.0,0.0,0.0,,
+Olmesartan Medoxomil,websearch-sonnet45,hard,14,4,1.0,0.25,0.0714,0.0714,1.0,Hypertension
+Oxycodone,pipeline-gpt41,hard,13,9,1.0,0.2222,0.0769,0.2308,0.5667,"Pain (acute and chronic, including neuropathic and cancer pain); Back pain (including chronic low back pain)"
+Oxycodone,pipeline-gpt52,hard,13,9,1.0,0.3333,0.0769,0.3077,0.6333,Pain; Back pain; restless legs syndrome
+Oxycodone,pipeline-opus46,hard,13,11,1.0,0.2,0.0769,0.2308,0.7436,Pain; Back pain
+Oxycodone,pipeline-sonnet45,hard,13,7,0.0,0.2857,0.0,0.2308,0.6111,Pain; Back pain
+Oxycodone,websearch-gpt41,hard,13,4,0.0,0.0,0.0,0.0,,
+Oxycodone,websearch-gpt52,hard,13,4,0.0,0.0,0.0,0.0,0.75,
+Oxycodone,websearch-opus46,hard,13,8,0.0,0.0,0.0,0.0,,
+Oxycodone,websearch-sonnet45,hard,13,7,0.0,0.0,0.0,0.0,,
+palbociclib,pipeline-gpt41,medium,14,7,0.0,0.0,0.0,0.0,,
+palbociclib,pipeline-gpt52,medium,14,7,0.0,0.1429,0.0,0.0714,0.8571,breast neoplasm
+palbociclib,pipeline-opus46,medium,14,22,0.0,0.2,0.0,0.1429,0.775,Liposarcoma (well-differentiated / dedifferentiated); Acute myeloid leukemia (FLT3-ITD positive)
+palbociclib,pipeline-sonnet45,medium,14,10,0.0,0.0,0.0,0.0,,
+palbociclib,websearch-gpt41,medium,14,4,0.0,0.0,0.0,0.0,,
+Palbociclib,websearch-gpt52,medium,14,5,0.0,0.2,0.0,0.0714,0.625,Liposarcoma (well-differentiated/dedifferentiated; CDK4-amplified)
+Palbociclib,websearch-opus46,medium,14,8,0.0,0.0,0.0,0.0,,
+Palbociclib,websearch-sonnet45,medium,14,6,0.0,0.1667,0.0,0.0714,0.8,Leiomyosarcoma
+PERGOLIDE,pipeline-gpt41,easy,17,1,1.0,1.0,0.0588,0.0588,1.0,Parkinson disease
+Pergolide,pipeline-gpt52,easy,17,1,1.0,1.0,0.0588,0.0588,1.0,Parkinson disease
+Pergolide,pipeline-opus46,easy,17,3,1.0,0.6667,0.0588,0.1176,0.9167,Parkinson disease; Restless legs syndrome
+Pergolide,pipeline-sonnet45,easy,17,3,1.0,0.6667,0.0588,0.1176,0.8333,Parkinson disease; Restless legs syndrome
+Pergolide,websearch-gpt41,easy,17,4,1.0,0.5,0.0588,0.1176,0.6667,Parkinson's disease; Restless legs syndrome
+Pergolide,websearch-gpt52,easy,17,4,1.0,0.75,0.0588,0.1765,0.25,Parkinson’s disease; Restless legs syndrome (Willis–Ekbom disease) / periodic limb movements of sleep; Prolactinoma / pituitary adenoma with hyperprolactinemia (including macroprolactinomas)
+Pergolide,websearch-opus46,easy,17,9,1.0,0.2222,0.0588,0.1176,0.9286,Parkinson's Disease; Restless Legs Syndrome
+Pergolide,websearch-sonnet45,easy,17,9,1.0,0.3333,0.0588,0.1765,0.5,Parkinson's disease; Restless legs syndrome; Hypertension
+Phenoxybenzamine,pipeline-gpt41,easy,27,2,0.0,0.5,0.0,0.037,0.5,Paraganglioma
+Phenoxybenzamine,pipeline-gpt52,easy,27,2,1.0,0.5,0.037,0.037,1.0,Paraganglioma
+Phenoxybenzamine,pipeline-opus46,easy,27,8,1.0,0.375,0.037,0.1111,1.0,Pheochromocytoma / Paraganglioma; Hypertension; Benign prostatic hyperplasia (BPH) / Lower urinary tract symptoms
+Phenoxybenzamine,pipeline-sonnet45,easy,27,7,0.0,0.2857,0.0,0.0741,0.5833,Hypertension; Benign Prostatic Hyperplasia
+phenoxybenzamine,websearch-gpt41,easy,27,5,1.0,0.6,0.037,0.1111,1.0,Pheochromocytoma; Benign Prostatic Hyperplasia; Neurogenic Bladder
+Phenoxybenzamine,websearch-gpt52,easy,27,6,1.0,0.6667,0.037,0.1481,0.5,Pheochromocytoma / Paraganglioma; Benign prostatic hyperplasia (BPH) / lower urinary tract symptoms (LUTS); Neurogenic bladder / urinary retention due to functional outlet obstruction; Erectile dysfunction (ED)
+Phenoxybenzamine,websearch-opus46,easy,27,9,1.0,0.2222,0.037,0.0741,0.9643,Pheochromocytoma; Benign Prostatic Hyperplasia
+Phenoxybenzamine,websearch-sonnet45,easy,27,6,1.0,0.3333,0.037,0.0741,0.875,Pheochromocytoma; Benign prostatic hyperplasia
+Pimozide,pipeline-gpt41,hard,16,6,1.0,0.3333,0.0625,0.125,0.85,Tourette syndrome; Schizophrenia
+Pimozide,pipeline-gpt52,hard,16,4,1.0,0.5,0.0625,0.125,0.9,Tourette syndrome; schizophrenia
+Pimozide,pipeline-opus46,hard,16,3,1.0,0.6667,0.0625,0.125,1.0,Tourette syndrome; Schizophrenia / Psychosis
+Pimozide,pipeline-sonnet45,hard,16,5,1.0,0.4,0.0625,0.125,1.0,Schizophrenia; Tourette syndrome
+Pimozide,websearch-gpt41,hard,16,3,1.0,0.6667,0.0625,0.125,1.0,Schizophrenia; Tourette syndrome
+Pimozide,websearch-opus46,hard,16,8,1.0,0.25,0.0625,0.125,1.0,Schizophrenia; Tourette Syndrome
+Pimozide,websearch-sonnet45,hard,16,6,1.0,0.3333,0.0625,0.125,1.0,Tourette Syndrome; Schizophrenia
+Tacrolimus,pipeline-gpt41,easy,56,4,1.0,0.25,0.0179,0.0179,1.0,Graft versus host disease (GVHD)
+Tacrolimus,pipeline-gpt52,easy,56,1,1.0,1.0,0.0179,0.0179,,graft versus host disease
+Tacrolimus,pipeline-opus46,easy,56,6,0.0,0.0,0.0,0.0,,
+Tacrolimus,pipeline-sonnet45,easy,56,11,1.0,0.1,0.0179,0.0179,0.95,graft versus host disease
+Tacrolimus,websearch-gpt41,easy,56,9,0.0,0.5556,0.0,0.0893,0.575,Atopic Dermatitis; Rheumatoid Arthritis; Lupus Nephritis; Myasthenia Gravis; Psoriasis
+tacrolimus,websearch-gpt52,easy,56,6,1.0,0.6667,0.0179,0.0714,0.625,Atopic dermatitis (eczema); Myasthenia gravis (MG); Rheumatoid arthritis (RA); Psoriasis (recalcitrant; systemic tacrolimus historically reported)
+Tacrolimus,websearch-opus46,easy,56,9,0.0,0.4444,0.0,0.0714,0.6,Atopic Dermatitis (Eczema); Psoriasis; Myasthenia Gravis; Rheumatoid Arthritis
+Tacrolimus,websearch-sonnet45,easy,56,6,0.0,0.8333,0.0,0.0893,0.0,Atopic Dermatitis; Lupus Nephritis; Systemic Lupus Erythematosus (Extra-renal Manifestations); Rheumatoid Arthritis; Myasthenia Gravis
+Terazosin,pipeline-gpt41,medium,11,3,1.0,0.6667,0.0909,0.1818,1.0,Benign prostatic hyperplasia; Hypertension
+Terazosin,pipeline-gpt52,medium,11,2,1.0,1.0,0.0909,0.1818,1.0,benign prostatic hyperplasia; hypertension
+Terazosin,pipeline-opus46,medium,11,8,1.0,0.25,0.0909,0.1818,1.0,Benign prostatic hyperplasia; Hypertension
+Terazosin,pipeline-sonnet45,medium,11,6,1.0,0.3333,0.0909,0.1818,1.0,benign prostatic hyperplasia; hypertension
+Terazosin,websearch-gpt41,medium,11,11,1.0,0.2,0.0909,0.1818,1.0,Benign Prostatic Hyperplasia; Hypertension
+Terazosin,websearch-gpt52,medium,11,6,1.0,0.3333,0.0909,0.1818,0.875,Benign prostatic hyperplasia (BPH) / lower urinary tract symptoms (LUTS); Urinary retention / bladder outlet obstruction (functional component)
+Terazosin,websearch-opus46,medium,11,10,1.0,0.1,0.0909,0.0909,0.9444,Benign Prostatic Hyperplasia
+Terazosin,websearch-sonnet45,medium,11,6,1.0,0.3333,0.0909,0.1818,1.0,Benign Prostatic Hyperplasia; Hypertension
+Venlafaxine Hydrochloride,pipeline-gpt41,easy,35,10,1.0,0.7,0.0571,0.2286,0.375,Major Depressive Disorder; Panic Disorder; Anxiety Disorder; Obsessive-Compulsive Disorder; Social Anxiety Disorder; Post-Traumatic Stress Disorder (PTSD); Bipolar Disorder
+Venlafaxine Hydrochloride,pipeline-gpt52,easy,35,6,1.0,0.6667,0.0571,0.1429,0.6562,major depressive disorder; depressive disorder; panic disorder; social anxiety disorder
+Venlafaxine Hydrochloride,pipeline-opus46,easy,35,11,1.0,0.7,0.0571,0.2,0.7361,major depressive disorder; depressive disorder; anxiety disorder; panic disorder; social anxiety disorder; posttraumatic stress disorder; obsessive-compulsive disorder
+Venlafaxine Hydrochloride,pipeline-sonnet45,easy,35,8,1.0,0.75,0.0571,0.2,0.7188,major depressive disorder; panic disorder; anxiety disorder; social anxiety disorder; obsessive-compulsive disorder; posttraumatic stress disorder
+Venlafaxine Hydrochloride,websearch-gpt41,easy,35,6,1.0,0.3333,0.0571,0.0857,0.5,Major Depressive Disorder; Attention Deficit Hyperactivity Disorder (ADHD)
+venlafaxine hydrochloride,websearch-gpt52,easy,35,9,1.0,0.4444,0.0571,0.1714,0.625,Major depressive disorder (MDD); Social anxiety disorder (social phobia); Panic disorder; Post-traumatic stress disorder (PTSD)
+Venlafaxine Hydrochloride,websearch-opus46,easy,35,9,1.0,0.6667,0.0571,0.2286,0.4722,Major Depressive Disorder; Social Anxiety Disorder; Panic Disorder; Post-Traumatic Stress Disorder; Attention Deficit Hyperactivity Disorder; Obsessive-Compulsive Disorder
+Venlafaxine Hydrochloride,websearch-sonnet45,easy,35,6,1.0,0.5,0.0571,0.1429,0.7778,Major Depressive Disorder; Social Anxiety Disorder; Panic Disorder
+ziprasidone,pipeline-gpt41,easy,13,4,1.0,0.75,0.0769,0.2308,1.0,"schizophrenia (and psychotic disorders, including schizoaffective disorder and psychosis); bipolar disorder; depressive disorder (major depressive disorder)"
+ziprasidone,pipeline-gpt52,easy,13,4,1.0,0.5,0.0769,0.1538,0.6667,schizophrenia; bipolar disorder
+ziprasidone,pipeline-opus46,easy,13,7,1.0,0.4286,0.0769,0.2308,0.75,schizophrenia; bipolar disorder; depressive disorder
+ziprasidone,pipeline-sonnet45,easy,13,6,1.0,0.5,0.0769,0.2308,0.8889,schizophrenia; bipolar disorder; major depressive disorder
+Ziprasidone,websearch-gpt41,easy,13,7,1.0,0.4286,0.0769,0.2308,0.9167,"Schizophrenia; Bipolar Disorder (Mania); Psychotic Disorders (schizoaffective disorder, delusional parasitosis, psychosis in Parkinson’s disease)"
+Ziprasidone,websearch-gpt52,easy,13,5,1.0,0.6,0.0769,0.2308,0.6667,Schizophrenia; Bipolar disorder (acute mania/mixed episodes; maintenance adjunct in some settings); Major depressive disorder (as adjunct)
+Ziprasidone,websearch-opus46,easy,13,7,1.0,0.4286,0.0769,0.2308,0.9167,Schizophrenia; Bipolar Disorder - Acute Mania and Mixed Episodes; Major Depressive Disorder (Treatment-Resistant Depression)
+ziprasidone,websearch-sonnet45,easy,13,4,1.0,0.75,0.0769,0.2308,1.0,Schizophrenia; Bipolar Disorder; Major Depressive Disorder
